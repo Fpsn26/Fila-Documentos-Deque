@@ -33,4 +33,9 @@ public class Documento {
         this.qtdPaginas = qtdPaginas;
     }
 
+    @Override
+    public String toString() {
+        return "Documento[ID =" + id + ", Tipo = " + tipoDocumento + ", Páginas = " + qtdPaginas + "]";
+    }
+
 }
